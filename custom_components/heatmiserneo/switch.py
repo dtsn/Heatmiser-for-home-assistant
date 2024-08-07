@@ -51,7 +51,7 @@ class NeoTimerEntity(CoordinatorEntity, SwitchEntity):
         self._coordinator = coordinator
         self._type = type
         self._state = timer.timer_on
-        self._holdfor = 30
+        self._holdfor = 90
 
     @property
     def data(self):
